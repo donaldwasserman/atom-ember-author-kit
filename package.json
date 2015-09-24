@@ -1,12 +1,11 @@
 {
   "name": "atom-ember-author-kit",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Ember author tool kit for Atom",
   "engines": {
     "atom": "*",
     "node": "*"
   },
-  "homepage": "http://atom.github.io/atom-ember-author-kit",
   "repository": {
     "type": "git",
     "url": "https://github.com/donaldwasserman/atom-ember-author-kit"
