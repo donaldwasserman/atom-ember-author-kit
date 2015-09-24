@@ -1,18 +1,18 @@
 {
-  "name": "language-ember-htmlbars",
-  "version": "0.3.0",
-  "description": "Ember HTMLBars language support in Atom",
+  "name": "atom-ember-author-kit",
+  "version": "0.0.0",
+  "description": "Ember author tool kit for Atom",
   "engines": {
     "atom": "*",
     "node": "*"
   },
-  "homepage": "http://atom.github.io/language-ember-htmlbars",
+  "homepage": "http://atom.github.io/atom-ember-author-kit",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmurphyau/language-ember-htmlbars.git"
+    "url": "https://github.com/donaldwasserman/atom-ember-author-kit"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jmurphyau/language-ember-htmlbars/issues"
+    "url": "https://github.com/donaldwasserman/atom-ember-author-kit/issues"
   }
 }
