@@ -1,9 +1,5 @@
-# Ember HTMLBars language support in Atom
+#Ember Authoring Tools for CLI Projects
 
-Adds syntax highlighting for Ember's HTMLBars templates to Atom.
+Many Ember.js-related Atom packages provide snippets for much of the boilerplate Ember-cli now provides.
 
-Originally sourced from [`atom/language-html`](http://github.com/atom/language-html).
-
-`grammers/html-htmlbars.cson` is a HTMLBars compatible version of `atom/language-html` which is used to provide better compatibility.
-
-![Screenshot](https://raw.githubusercontent.com/jmurphyau/language-ember-htmlbars/master/screenshot.png)
+This project provides snippets (and syntax highlighting from https://github.com/jmurphyau/language-ember-htmlbars) for HMTLBars templates as well as some common Ember-flavored javascript shortcuts.

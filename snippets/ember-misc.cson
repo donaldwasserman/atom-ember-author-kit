@@ -1,0 +1,22 @@
+'.source.js':
+    '$self = $this':
+      'prefix': '$s=t'
+      'body': 'var $self = $(this);'
+    'self = this':
+      'prefix': 's=t',
+      'body': 'var self = this;'
+    'Ember':
+      'prefix': 'em'
+      'body': 'Ember'
+    'this controller':
+      'prefix': 'tc'
+      'body': 'this.controller'
+    'this create Record':
+      'prefix': 'tcr',
+      'body': 'this.store.createRecord(\'${1:name}\'{${2:}});'
+    'DS Attr':
+      'prefix': 'dsa'
+      'body': 'DS.attr(\'${1:type}\')${2:}'
+    'this store get':
+      'prefix': 'tsg'
+      'body': 'this.store.find(\'${1:model}\', ${2:property})${3:}'
