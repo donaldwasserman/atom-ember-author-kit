@@ -8,6 +8,9 @@
     'Ember':
       'prefix': 'em'
       'body': 'Ember'
+    'Ember Object Extend':
+      'prefix': 'eoe'
+      'body':'Ember.Object.extend({\n});'
     'this controller':
       'prefix': 'tc'
       'body': 'this.controller'
@@ -19,4 +22,7 @@
       'body': 'DS.attr(\'${1:type}\')${2:}'
     'this store get':
       'prefix': 'tsg'
-      'body': 'this.store.find(\'${1:model}\', ${2:property})${3:}'
+      'body': 'this.store.findAll(\'${1:model}\', ${2:property})${3:}'
+    'Computed Property':
+      'prefix': 'cmp',
+      'body': 'Ember.computed(\'${1:prop1}\', \'${2:prop2}\', function() {\nreturn \'${3:stuff}\' \n})'
