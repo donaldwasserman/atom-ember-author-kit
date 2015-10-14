@@ -2,10 +2,23 @@
   "name": "atom-ember-author-kit",
   "version": "0.5.1",
   "description": "Ember author tool kit for Atom",
+  "main": "./lib/index",
   "engines": {
     "atom": "*",
     "node": "*"
   },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
+  },
+  "keywords": [
+    "ember",
+    "ember handlebars",
+    "HTMLBars"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/donaldwasserman/atom-ember-author-kit"
