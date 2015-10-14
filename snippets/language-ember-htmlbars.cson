@@ -26,3 +26,9 @@
   'textarea':
     'prefix': 'textarea'
     'body': '{{textarea value=${1:value} cols="${2:cols}" rows="${3:rows}" }}'
+  'each in':
+    'prefix': 'each-in'
+    'body': '{{#each-in ${1:model} as |${2:param}|}}\n\t$0\n{{/each-in}}'
+  'get':
+    'prefix': 'em-get'
+    'body': '{{get ${1:model} \'${2:property}\'}}'

@@ -2,6 +2,9 @@
     '$self = $this':
       'prefix': '$s=t'
       'body': 'var $self = $(this);'
+    'callback':
+      'prefix': 'cb',
+      'body': '(\'$1:{args}\') => { \n \'$2:{args}\' \n}'
     'self = this':
       'prefix': 's=t',
       'body': 'var self = this;'

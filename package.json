@@ -14,6 +14,11 @@
       }
     }
   },
+  "keywords": [
+    "ember",
+    "ember handlebars",
+    "HTMLBars"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/donaldwasserman/atom-ember-author-kit"
