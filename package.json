@@ -1,6 +1,6 @@
 {
   "name": "atom-ember-author-kit",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "Ember author tool kit for Atom",
   "main": "./lib/index",
   "engines": {
