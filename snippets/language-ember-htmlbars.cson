@@ -8,12 +8,18 @@
   'unless':
     'prefix': 'unl'
     'body': '{{#unless ${1:condition}}}\n\t$0\n{{/unless}}'
+  'unless...else...end':
+    'prefix': 'unle'
+    'body': '{{#unless ${1:condition}}}\n\t$0\n{{else}}\n\t\n{{/unless}}'
   'ember-action':
     'prefix': 'ema'
     'body': '{{action ${1:\'${2:name}\'}}}'
   'inline-if':
     'prefix': 'ifl'
     'body': '{{if ${1:condition} \'${2:property}\'}}'
+  'else':
+    'prefix': 'else'
+    'body': '{{else}}'
   'else if':
     'prefix': 'elsif'
     'body': '{{else if ${1:condition} \'${2:property}\'}}'
