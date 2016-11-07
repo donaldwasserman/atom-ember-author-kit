@@ -17,7 +17,7 @@ This package adds Ember-specific HTMLBars functionality for the Atom text editor
 | ------------- | ----------- |
 | if      | `{{#if}}...{{/if}}`|
 | ife     | `{{#if}}...{{else}}..{/if}` |
-| unless     | `{{#unless}}..{{/unless}}` |
+| unl     | `{{#unless}}..{{/unless}}` |
 | ema     | `{{action}}` |
 | ifl | `{{if .. ...}}` |
 | elsif | `{{else if .. ...}}` |
